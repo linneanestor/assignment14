@@ -1,8 +1,10 @@
 body {
     color: white; 
-    display:flex;
 }
 
+button:hover {
+    color: lightblue;
+}
 .header {
     background-image: url("../images/image_header.png");
     background-color: darkslategray;
@@ -51,6 +53,7 @@ body {
     background: #5474FD;
     color: white;
     font-size: 14px;
+    border: none;
 }
 
 .scrolltext {
@@ -62,6 +65,20 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     margin-top: 50px;
+}
+
+nav {
+    height: 83px;
+    width: 100%;
+    background: #5474FD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav_second {
+    display: flex;
+    justify-content: center;
 }
