@@ -1,0 +1,67 @@
+body {
+    color: white; 
+    display:flex;
+}
+
+.header {
+    background-image: url("../images/image_header.png");
+    background-color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    max-width: 1770px;
+    width: 100%; 
+    max-height: 820px;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+}
+
+.font1 {
+    font-family: "Josefin Sans", regular;
+}
+
+.font2 {
+    font-family: "Aleo";
+}
+
+.logo {
+    font-size: 48px;
+    font-display: center;
+}
+
+.under_logo {
+    font-size: 22px;
+    letter-spacing: 6.82px;
+}
+
+.logo_div {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.label-and-input {
+    width: 553px;
+    height: 63px;
+    text-align: center;
+}
+
+.button1 {
+    width: 153px;
+    height: 63px;
+    background: #5474FD;
+    color: white;
+    font-size: 14px;
+}
+
+.scrolltext {
+    font-size: 14px;
+}
+
+.div_scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
