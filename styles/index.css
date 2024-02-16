@@ -113,3 +113,19 @@ main {
 .image_main_second {
     align-self: flex-end;
 }
+
+.steps {
+    background: #333333;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.steps_div {
+    text-align: center;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+}
