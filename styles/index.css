@@ -10,7 +10,6 @@ button:hover {
     background-color: darkslategray;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
 }
@@ -125,7 +124,43 @@ main {
     text-align: center;
 }
 
-.icon {
-    width: 150px;
-    height: 150px;
+.spain1 {
+    background-image: url("../images/image_spain1.png");
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
 }
+
+.spain2 {
+    background-image: url("../images/image_spain2.png");
+    background-color: darkslategray;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.spain_box1 {
+    background: #232323;
+    opacity: 80%;
+    margin-left: 130px;
+    margin-top: 100px;
+    max-width: 400px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+.spain_header {
+    font-size: 20px;
+}
+
+.spain_box2 {
+    background: #232323;
+    opacity: 80%;
+    margin-right: 130px;
+    margin-top: 100px;
+    max-width: 400px;
+    margin-bottom: 100px;
+    padding: 20px;
+}
+
+
