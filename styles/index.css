@@ -163,4 +163,29 @@ main {
     padding: 20px;
 }
 
+.section_last {
+    background-image: url("../images/image_last.png");
+    background-color: darkslategray;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.tourist_header {
+    font-size: 36px;
+    margin: 50px;
+}
+
+.tourist_container {
+    display: flex;
+    max-width: 70%;
+    background: #333333;
+    margin-bottom: 30px;
+}
+
+.tourist_quote {
+    text-align: left;
+    margin-left: 30px;
+}
